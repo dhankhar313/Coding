@@ -15,3 +15,12 @@ console.log(person.name)
 
 person['name'] = 'Rahul'
 console.log(person.name)
+
+person.clg = 'CU';
+console.log(person)
+
+delete person.clg;
+console.log(person);
+
+console.log(person.hasOwnProperty('clg'));
+console.log(person.hasOwnProperty('name'));
